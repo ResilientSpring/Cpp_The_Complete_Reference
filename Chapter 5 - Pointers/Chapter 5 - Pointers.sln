@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.37301.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointers to Functions", "Pointers to Functions\Pointers to Functions.vcxproj", "{FDCD9139-8E7F-489A-BEBC-55BE1577E919}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointers to Functions 2", "Pointers to Functions 2\Pointers to Functions 2.vcxproj", "{35416CA1-49F6-4F1C-A06D-1F625E65490A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{FDCD9139-8E7F-489A-BEBC-55BE1577E919}.Release|x64.Build.0 = Release|x64
 		{FDCD9139-8E7F-489A-BEBC-55BE1577E919}.Release|x86.ActiveCfg = Release|Win32
 		{FDCD9139-8E7F-489A-BEBC-55BE1577E919}.Release|x86.Build.0 = Release|Win32
+		{35416CA1-49F6-4F1C-A06D-1F625E65490A}.Debug|x64.ActiveCfg = Debug|x64
+		{35416CA1-49F6-4F1C-A06D-1F625E65490A}.Debug|x64.Build.0 = Debug|x64
+		{35416CA1-49F6-4F1C-A06D-1F625E65490A}.Debug|x86.ActiveCfg = Debug|Win32
+		{35416CA1-49F6-4F1C-A06D-1F625E65490A}.Debug|x86.Build.0 = Debug|Win32
+		{35416CA1-49F6-4F1C-A06D-1F625E65490A}.Release|x64.ActiveCfg = Release|x64
+		{35416CA1-49F6-4F1C-A06D-1F625E65490A}.Release|x64.Build.0 = Release|x64
+		{35416CA1-49F6-4F1C-A06D-1F625E65490A}.Release|x86.ActiveCfg = Release|Win32
+		{35416CA1-49F6-4F1C-A06D-1F625E65490A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
