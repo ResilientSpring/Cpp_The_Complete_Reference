@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointers to Functions 3", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointers to Functions 4", "Pointers to Functions 4\Pointers to Functions 4.vcxproj", "{CC036728-7D78-45AF-9D17-642BDF3E4EA3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointers to Functions 5", "Pointers to Functions 5\Pointers to Functions 5.vcxproj", "{BD63B8E1-DF55-40B2-94B2-A6D7691E299C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{CC036728-7D78-45AF-9D17-642BDF3E4EA3}.Release|x64.Build.0 = Release|x64
 		{CC036728-7D78-45AF-9D17-642BDF3E4EA3}.Release|x86.ActiveCfg = Release|Win32
 		{CC036728-7D78-45AF-9D17-642BDF3E4EA3}.Release|x86.Build.0 = Release|Win32
+		{BD63B8E1-DF55-40B2-94B2-A6D7691E299C}.Debug|x64.ActiveCfg = Debug|x64
+		{BD63B8E1-DF55-40B2-94B2-A6D7691E299C}.Debug|x64.Build.0 = Debug|x64
+		{BD63B8E1-DF55-40B2-94B2-A6D7691E299C}.Debug|x86.ActiveCfg = Debug|Win32
+		{BD63B8E1-DF55-40B2-94B2-A6D7691E299C}.Debug|x86.Build.0 = Debug|Win32
+		{BD63B8E1-DF55-40B2-94B2-A6D7691E299C}.Release|x64.ActiveCfg = Release|x64
+		{BD63B8E1-DF55-40B2-94B2-A6D7691E299C}.Release|x64.Build.0 = Release|x64
+		{BD63B8E1-DF55-40B2-94B2-A6D7691E299C}.Release|x86.ActiveCfg = Release|Win32
+		{BD63B8E1-DF55-40B2-94B2-A6D7691E299C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
