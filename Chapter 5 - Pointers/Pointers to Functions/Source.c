@@ -19,3 +19,13 @@ int main(void)
 	return 0;
 
 }
+
+void check(char *a, char *b, int (*cmp)(const char *, const char *))
+{
+
+	printf("Testing for equality.\n");
+
+	if (!(*cmp)(a, b)) printf("Equal");
+	else printf("Not Equal");
+
+}
