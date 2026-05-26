@@ -14,4 +14,8 @@ int main(void)
 	gets(s1);
 	gets(s2);
 
+	check(s1, s2, p);
+
+	return 0;
+
 }
