@@ -16,5 +16,8 @@ int main()
 
 	if (isalpha(*s1))
 		check(s1, s2, strcmp);
+	else
+		check(s1, s2, numcmp);
 
+	return 0;
 }
