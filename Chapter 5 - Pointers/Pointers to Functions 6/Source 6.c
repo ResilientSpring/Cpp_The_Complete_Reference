@@ -28,5 +28,13 @@ void check(char* a, char *b, int (*cmp)(const char *, const char *))
 	printf("Testing for equality.\n");
 	
 	if (!(*cmp)(a, b)) printf("Equal");
+	else printf("Not Equal");
 
+}
+
+int numcmp(const char * a, const char * b)
+{
+
+	if (atoi(a) == atoi(b)) return 0;
+	else return 1;
 }
