@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointers to Functions (Expa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointers to Functions 6", "Pointers to Functions 6\Pointers to Functions 6.vcxproj", "{E44ABB2F-91C4-434C-85A3-9D4F4592265C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dynamic allocation", "Dynamic allocation\Dynamic allocation.vcxproj", "{58BAB1C1-CE59-489E-81A9-430CC59AC454}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{E44ABB2F-91C4-434C-85A3-9D4F4592265C}.Release|x64.Build.0 = Release|x64
 		{E44ABB2F-91C4-434C-85A3-9D4F4592265C}.Release|x86.ActiveCfg = Release|Win32
 		{E44ABB2F-91C4-434C-85A3-9D4F4592265C}.Release|x86.Build.0 = Release|Win32
+		{58BAB1C1-CE59-489E-81A9-430CC59AC454}.Debug|x64.ActiveCfg = Debug|x64
+		{58BAB1C1-CE59-489E-81A9-430CC59AC454}.Debug|x64.Build.0 = Debug|x64
+		{58BAB1C1-CE59-489E-81A9-430CC59AC454}.Debug|x86.ActiveCfg = Debug|Win32
+		{58BAB1C1-CE59-489E-81A9-430CC59AC454}.Debug|x86.Build.0 = Debug|Win32
+		{58BAB1C1-CE59-489E-81A9-430CC59AC454}.Release|x64.ActiveCfg = Release|x64
+		{58BAB1C1-CE59-489E-81A9-430CC59AC454}.Release|x64.Build.0 = Release|x64
+		{58BAB1C1-CE59-489E-81A9-430CC59AC454}.Release|x86.ActiveCfg = Release|Win32
+		{58BAB1C1-CE59-489E-81A9-430CC59AC454}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
