@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.37301.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ to C translation", "C++ to C translation\C++ to C translation.vcxproj", "{360DC010-8613-494B-91F6-02090B71BB7C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ to C translation 2", "C++ to C translation 2\C++ to C translation 2.vcxproj", "{9B4F566D-4F40-47E1-8F47-1F3B2836582C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{360DC010-8613-494B-91F6-02090B71BB7C}.Release|x64.Build.0 = Release|x64
 		{360DC010-8613-494B-91F6-02090B71BB7C}.Release|x86.ActiveCfg = Release|Win32
 		{360DC010-8613-494B-91F6-02090B71BB7C}.Release|x86.Build.0 = Release|Win32
+		{9B4F566D-4F40-47E1-8F47-1F3B2836582C}.Debug|x64.ActiveCfg = Debug|x64
+		{9B4F566D-4F40-47E1-8F47-1F3B2836582C}.Debug|x64.Build.0 = Debug|x64
+		{9B4F566D-4F40-47E1-8F47-1F3B2836582C}.Debug|x86.ActiveCfg = Debug|Win32
+		{9B4F566D-4F40-47E1-8F47-1F3B2836582C}.Debug|x86.Build.0 = Debug|Win32
+		{9B4F566D-4F40-47E1-8F47-1F3B2836582C}.Release|x64.ActiveCfg = Release|x64
+		{9B4F566D-4F40-47E1-8F47-1F3B2836582C}.Release|x64.Build.0 = Release|x64
+		{9B4F566D-4F40-47E1-8F47-1F3B2836582C}.Release|x86.ActiveCfg = Release|Win32
+		{9B4F566D-4F40-47E1-8F47-1F3B2836582C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
