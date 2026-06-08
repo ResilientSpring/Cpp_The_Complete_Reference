@@ -6,7 +6,7 @@ typedef struct Vehicle {
     int fuelcap;
     int mpg;
 
-    int (*range)(struct Vehicle );
+    int (*range)(struct Vehicle * v);
 
 } Vehicle;
 
