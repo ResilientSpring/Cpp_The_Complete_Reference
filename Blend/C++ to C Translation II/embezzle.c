@@ -5,6 +5,9 @@ typedef struct Vehicle {
     int passengers;
     int fuelcap;
     int mpg;
+
+    int (*range)(struct Vehicle );
+
 } Vehicle;
 
 /* Equivalent of Vehicle::range() */
