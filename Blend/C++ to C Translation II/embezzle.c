@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /* Define the Vehicle structure. */
-struct Vehicle {
+typedef struct Vehicle {
     int passengers;
     int fuelcap;
     int mpg;
@@ -13,8 +13,8 @@ int range(struct Vehicle *v) {
 }
 
 int main(void) {
-    struct Vehicle minivan;
-    struct Vehicle sportscar;
+    Vehicle minivan;
+    Vehicle sportscar;
 
     int range1, range2;
 
