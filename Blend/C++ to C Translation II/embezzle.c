@@ -11,7 +11,7 @@ typedef struct Vehicle {
 } Vehicle;
 
 /* Equivalent of Vehicle::range() */
-int range(struct Vehicle *v) {
+int range(struct Vehicle * v) {
     return v->mpg * v->fuelcap;
 }
 
@@ -38,6 +38,8 @@ int main(void) {
 
     //range1 = range(&minivan);
     //range2 = range(&sportscar);
+
+    minivan.range();
 
     printf("Minivan can carry %d with a range of %d\n",
         minivan.passengers, range1);
