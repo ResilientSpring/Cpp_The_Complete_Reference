@@ -27,9 +27,10 @@ int main(void)
         obs[i].set_x(&obs[i], i);
     }
 
-    for (i = 0; i < 4; i++)
+    for (i = 0; i < 4; i++) {
         printf("obs[%d].get_x(): %d\n", i,
             obs[i].get_x(&obs[i]));
+    }
 
     return 0;
 }
