@@ -39,7 +39,8 @@ int main(void) {
     //range1 = range(&minivan);
     //range2 = range(&sportscar);
 
-    minivan.range();
+    minivan.range(&minivan);
+    sportscar.range(&sportscar);
 
     printf("Minivan can carry %d with a range of %d\n",
         minivan.passengers, range1);
