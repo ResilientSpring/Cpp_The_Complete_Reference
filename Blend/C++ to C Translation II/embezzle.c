@@ -5,7 +5,7 @@ struct Vehicle {
     int passengers;
     int fuelcap;
     int mpg;
-};
+} Vehicle;
 
 /* Equivalent of Vehicle::range() */
 int range(struct Vehicle *v) {
