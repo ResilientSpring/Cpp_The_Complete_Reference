@@ -28,6 +28,9 @@ int main(void)
     }
 
     for (i = 0; i < 4; i++) {
+
+        obs[i].get_x = get_x_impl;
+
         printf("obs[%d].get_x(): %d\n", i,
             obs[i].get_x(&obs[i]));
     }
