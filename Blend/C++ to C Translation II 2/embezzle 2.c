@@ -33,14 +33,14 @@ int main(void) {
 
     /* Compute the range assuming a full tank of gas. */
 
-    minivan.range = range;
-    sportscar.range = &range;
+    //minivan.range = range;
+    //sportscar.range = &range;
 
-    //range1 = range(&minivan);
-    //range2 = range(&sportscar);
+    range1 = range(&minivan);
+    range2 = range(&sportscar);
 
-    range1 = minivan.range(&minivan);
-    range2 = sportscar.range(&sportscar);
+    //range1 = minivan.range(&minivan);
+    //range2 = sportscar.range(&sportscar);
 
     printf("Minivan can carry %d with a range of %d\n",
         minivan.passengers, range1);
