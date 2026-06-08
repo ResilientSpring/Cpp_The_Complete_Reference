@@ -32,6 +32,10 @@ int main(void) {
     sportscar.mpg = 12;
 
     /* Compute the range assuming a full tank of gas. */
+
+    minivan.range = range;
+    sportscar.range = &range;
+
     range1 = range(&minivan);
     range2 = range(&sportscar);
 
