@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Enumerations 2/Enumerations 2.vcxproj" />
+  <Project Path="Enumerations/Enumerations.vcxproj" />
+</Solution>
