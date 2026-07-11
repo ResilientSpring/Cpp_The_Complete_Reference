@@ -6,7 +6,8 @@ int main(void)
 {
 	int xy = 10;
 	
-	printf("%d\n", concat(x, y)); // This will print the value of xy, which is 10
+	printf("%d\n", concat(x, y)); 
+	// The preprocessor transforms concat(x, y) into xy, i.e, printf("%d\n", xy);
 
 	return 0;
 }
