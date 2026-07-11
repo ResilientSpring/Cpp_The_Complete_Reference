@@ -3,6 +3,6 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Enumerations 2/Enumerations 2.vcxproj" />
-  <Project Path="Enumerations/Enumerations.vcxproj" />
+  <Project Path="Enumerations 2/Enumerations 2.vcxproj" Id="4dfed62d-5146-4d8e-b498-dc9524a441e1" />
+  <Project Path="Enumerations/Enumerations.vcxproj" Id="ccfcb20c-1b86-4954-9b63-ca86c171a7b6" />
 </Solution>
