@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Double hash preprocessor operator/Double hash preprocessor operator.vcxproj" />
+  <Project Path="The single hash preprocessor operator/The single hash preprocessor operator.vcxproj" />
+</Solution>
